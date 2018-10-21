@@ -1,29 +1,3 @@
-#include <power_mgt.h>
-#include <platforms.h>
-#include <pixeltypes.h>
-#include <pixelset.h>
-#include <noise.h>
-#include <lib8tion.h>
-#include <led_sysdefs.h>
-#include <hsv2rgb.h>
-#include <fastspi_types.h>
-#include <fastspi_ref.h>
-#include <fastspi_nop.h>
-#include <fastspi_dma.h>
-#include <fastspi_bitbang.h>
-#include <fastspi.h>
-#include <fastpin.h>
-#include <fastled_progmem.h>
-#include <fastled_delay.h>
-#include <fastled_config.h>
-#include <dmx.h>
-#include <cpp_compat.h>
-#include <controller.h>
-#include <colorutils.h>
-#include <colorpalettes.h>
-#include <color.h>
-#include <chipsets.h>
-#include <bitswap.h>
 #include <FastLED.h>
 #define RED_LED 5
 #define GREEN_LED 10
